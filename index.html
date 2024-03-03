@@ -12,18 +12,20 @@
         <p>Photo by <a href="https://unsplash.com/es/@j_mk18">Jon</a> on <a href="https://unsplash.com/">Unsplash</a></p>
     </div>
 
-    <div>
-        <p>
-            This is not a real service! Your know you need something like this in your life to help yu realize your deepest dreams. 
-            <br>
-            Sign up <i>now</i> to get started.
-        </p>
-        <p>You <i>know</i> you want to.</p>
+    <div id="container">
+        <div id="intro">
+            <p>
+                This is not a real service! Your know you need something like this in your life to help you realize your deepest dreams. 
+                <br>
+                Sign up <i>now</i> to get started.
+            </p>
+            <p>You <i>know</i> you want to.</p>
+        </div>
 
         <div id="formContainer">
             <p>Let's do this!</p>
             <form action="#" method="post">
-                <div id="inputGroup1">
+                <div class="inputGroup">
                     <div id="firstName">
                         <label for="firstName">FIRST NAME</label>
                         <input type="text" name="firstName" required>
@@ -33,7 +35,7 @@
                         <input type="text" name="lastName" required>
                     </div>
                 </div>
-                <div id="inputGroup2">
+                <div class="inputGroup">
                     <div id="email">
                         <label for="email">EMAIL</label>
                         <input type="email" name="email" required>
@@ -43,10 +45,11 @@
                         <input type="tel" name="phoneNumber" required>
                     </div>
                 </div>
-                <div id="inputGroup3">
+                <div class="inputGroup">
                     <div id="password">
                         <label for="password">PASSWORD</label>
                         <input type="password" name="password" required>
+                        <p id="message">* Passwords do not match</p>
                     </div>
                     <div id="confirmPassword">
                         <label for="confirmPassword">CONFIRM PASSWORD</label>
