@@ -24,7 +24,7 @@
 
         <div id="formContainer">
             <p>Let's do this!</p>
-            <form action="#" method="post">
+            <form action="#" method="post" id="signUp">
                 <div class="inputGroup">
                     <div id="firstName">
                         <label for="firstName">FIRST NAME</label>
@@ -49,7 +49,7 @@
                     <div id="password">
                         <label for="password">PASSWORD</label>
                         <input type="password" name="password" required>
-                        <p id="message">* Passwords do not match</p>
+                        <p id="errorMessage">* Passwords do not match</p>
                     </div>
                     <div id="confirmPassword">
                         <label for="confirmPassword">CONFIRM PASSWORD</label>
@@ -58,8 +58,9 @@
                 </div>
             </form>
         </div>
-        <button type="submit">Create Account</button>
+        <button type="submit" form="signUp">Create Account</button>
         <p>Already have an account? <a href="#">Log in</a></p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

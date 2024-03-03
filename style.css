@@ -29,7 +29,7 @@ body {
 
 #container {
     background-color: whitesmoke;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 #container #intro p {
@@ -84,8 +84,8 @@ form input:focus{
     box-shadow: 1px 3px 5px rgb(209, 209, 209);
 }
 
-form .inputGroup #password #message {
-    color: rgb(237, 0, 0);
+form .inputGroup #password #errorMessage {
+    color: transparent;
     font-weight: 400;
     font-size: 14px;
     margin-top: 5px
